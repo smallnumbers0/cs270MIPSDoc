@@ -1,1 +1,1 @@
-# cs270MIPSDoc
+# This is a documentation page for everything needed for CS270 class at CCSF.
