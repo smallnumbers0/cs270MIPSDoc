@@ -15,11 +15,34 @@ body {
     color: #ffffff;
 }
 
+#architecture-list li {
+    padding: 10px 0;
+}
+
+#architecture-list h3 {
+    color: aquamarine;
+}
+
+p {
+    padding: 10px 0;
+}
+
+li p {
+    font-size: 16px;
+    padding: 10px 0;
+
+}
+
 .topics {
     font-size: 25px;
     color: rgb(247, 68, 68); 
+    border-bottom: 1px solid rgb(147, 63, 237);
+    padding: 10px 0;
 }
 
+.main-section {
+    padding: 0 200px;
+}
 /********************************************************
 *******************      NAVBAR     *********************
 *********************************************************/
@@ -150,4 +173,8 @@ section {
         align-items: center;
         margin: 0 auto;
     }
+}
+
+.color-red {
+    color: red;
 }

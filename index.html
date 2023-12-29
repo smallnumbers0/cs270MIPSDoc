@@ -23,16 +23,24 @@
     <main id="main-doc">
         <section class="main-section" id="Comp_Architecture">
             <header class="topics" id="Comp_Architecture">Comp Architecture</header>
-            <p>Computer architecture explains the functional behavior of computer systems. Most modern computers today include a motherboard, CPU, RAM(main memory), secondary memory, and GPU, Input/Output Devices and many more. These hardware components of a computer all communicate together through something called a system bus. Imagine an actual bus picking up and dropping people off at different destinations. These busses hold important instructions that computers use to do computing</p>
-            <ul>
+            <p>Computer architecture explains the functional behavior of computer systems. Most modern computers today go with the <span class="color-red">Von Neumann architecture</span> (Remember this name because it will come up again later in RAM section). The Von Neumann architecture include a motherboard, CPU, RAM(main memory), secondary memory, and GPU, Input/Output Devices and many more. These hardware components of a computer all communicate together through something called a system bus. Imagine an actual bus picking up and dropping people off at different destinations. These busses hold important instructions that computers use to do computing</p>
+            <ul id="architecture-list">
                 <li>
                     <h3>CPU</h3>
-                    <p>The Central Processing Unit is where most of the computing occurs. The CPU includes registers, Arithmetic Logic Unit (ALU), and a control Unit(CU). If we want to tell the computer to add 1 + 2, many instructions and operations take place inside of the CPU in order to fulfill this request. For every instruction that occurs, the CPU must execute what we call a <span class="color-red">fetch-decode-execute cycle</span>. Without going into abstract details of this cycle: During the fetch phase, the CPU fetches an instruction from main memory. Next, the decode phase determines the sequence of operations needed to be performed. And finally the execute phase is where that sequence of operations are performed.</p>
+                    <p>The Central Processing Unit is where the computing occurs. The CPU includes registers, Arithmetic Logic Unit (ALU), and a control Unit(CU). If we want to tell the computer to add 1 + 2, many instructions and operations take place inside of the CPU in order to fulfill this request. For every instruction that occurs, the CPU must execute what we call a <span class="color-red">fetch-decode-execute cycle</span>. Without going into abstract details of this cycle: During the fetch phase, the CPU fetches an instruction from main memory. Next, the decode phase determines the sequence of operations needed to be performed. And finally the execute phase is where that sequence of operations are performed.</p>
                 </li>
-                <li><h3>RAM</h3></li>
-                <li><h3>Secondary Storage</h3></li>
-                <li><h3></h3></li>
-                <li><h3>I/O</h3></li>
+                <li>
+                    <h3>RAM</h3
+                    <p>The RAM (Random Access Memory) is also known as the main memory. This piece of hardware temporarily keeps data accessible for your CPU so it does not need to find it from the secondary storage. RAM devices typically hold very little space ranging from 8GB to 32GB in most modern computers. Data is transffered between RAM and CPU through a system bus. This transfer process was great back then when CPU's were incredibly slow. A CPU's proccessing power today is incredibly fast and the data transfer using a system bus has proven to be a disadvantage due to the CPU needing to always idle and wait for information from RAM to process and carry out the instructions. This disadvantage is known as the <span class="color-red">Von Neumann bottleneck</span>.</p>
+                </li>
+                <li>
+                    <h3>Secondary Storage</h3>
+                    <p>Secondary Storage is our long term storage. Today most computers will use hard drives or solid state drives for this purpose. These devices can hold lots of data typically around 512GB - 1TB in modern personal computers.</p>
+                </li>
+                <li>
+                    <h3>I/O</h3>
+                    <p>Input / Output devices include your keyboard, mouse, or other hardware that humans use to interact with the computer.</p>
+                </li>
             </ul>
         </section>
         <section class="main-section" id="Decimal_to_Binary">
